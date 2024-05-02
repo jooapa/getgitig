@@ -18,9 +18,9 @@ getgitig
 
 ```bash
 getgitig    
-            -h, --help      Show this help message
-            -v, --version   Show the version of the program
-            -s, --select    Select the right .gitignore file
-            -sr, --search   Search for a .gitignore file
-            -l, --list      List all available .gitignore files
+         -h, --help      Show this help message
+         -v, --version   Show the version of the program
+         -s, --select    Select the right .gitignore file
+         -sr, --search   Search for a .gitignore file
+         -l, --list      List all available .gitignore files
 ```
