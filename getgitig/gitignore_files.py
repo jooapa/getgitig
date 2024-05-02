@@ -115,6 +115,7 @@ gitignore_files = {
     ("UnrealEngine", ".u"): "https://raw.githubusercontent.com/github/gitignore/main/UnrealEngine.gitignore",
     ("VVVV", ".xml"): "https://raw.githubusercontent.com/github/gitignore/main/VVVV.gitignore",
     ("VisualStudio", ".sln"): "https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore",
+    ("C#", ".cs"): "https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore",
     ("Waf", ".waf"): "https://raw.githubusercontent.com/github/gitignore/main/Waf.gitignore",
     ("WordPress", ".php"): "https://raw.githubusercontent.com/github/gitignore/main/WordPress.gitignore",
     ("Xojo", ".xojo_code"): "https://raw.githubusercontent.com/github/gitignore/main/Xojo.gitignore",
@@ -127,4 +128,5 @@ gitignore_files = {
     ("opencart", ".tpl"): "https://raw.githubusercontent.com/github/gitignore/main/opencart.gitignore",
     ("stella", ".asm"): "https://raw.githubusercontent.com/github/gitignore/main/stella.gitignore",
     ("xcode", ".xcworkspace"): "https://raw.githubusercontent.com/github/gitignore/main/xcod.gitignore",
+    ("klinoff-lang", ".kln"): "https://raw.githubusercontent.com/github/gitignore/main/klinoff-lang.gitignore",
 }

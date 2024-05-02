@@ -44,17 +44,23 @@ def search(search=None):
         
 def find_in_gitignore_files_by_name(name):
     for language in gitignore_files:
+        if name.lower() == language[0].lower():
+            return language
+        
+    for language in gitignore_files:
         if name.lower() in language[0].lower():
             return language
-    return None
 
 def find_in_gitignore_files_by_ext(ext):
     for language in gitignore_files:
-        if ext.lower() in language[1].lower():
+        if ext.lower() == language[1].lower():
             return language
         
+    for language in gitignore_files:
+        if ext.lower() in language[1].lower():
+            return language
     return None
-
+        
 def selection():
     try:
         questions = [
